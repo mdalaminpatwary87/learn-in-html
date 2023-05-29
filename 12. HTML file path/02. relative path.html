@@ -1,0 +1,22 @@
+<!-- 
+    - Here, relative file path url does not include the domain name or full.         
+    - There are some types of relative paths: 
+        - src="img_girl.jpg"        => The "picture.jpg" file is located in the same folder as the current page
+        - src="images/picture.jpg"> => The "picture.jpg" file is located in the images folder in the current folder
+        - src="/images/img_girl.jpg"=> The "picture.jpg" file is located in the images folder at the root of the current web
+        - src="../picture.jpg"      => The "picture.jpg" file is located in the folder (./) one level up or (../) two level up from the current folder
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <img src="user_profile_picture.png" alt="user_profile_picture1" width="150px">
+    <img src="images/user_profile_picture.png" alt="user_profile_picture2" width="150px">
+    <img src="/13. HTML image/user_profile_picture.png" alt="user_profile_picture2" width="150px">
+    <img src="/13. HTML image/user_profile_picture.png" alt="user_profile_picture2" width="150px">
+    <img src="./user_profile_picture.png" alt="user_profile_picture2" width="150px">
+    <img src="../user_profile_picture.png" alt="user_profile_picture2" width="150px">
+</body>
+</html>

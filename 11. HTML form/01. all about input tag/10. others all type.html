@@ -1,0 +1,87 @@
+<!-- 
+    - here some important input type 'attributes' are =>
+    - type="search"           => search attribute is used to create a search input field, where users can input text to search for specific content on a web page or within a search engine.
+    - type="email"            => email attribute is used to create an email input field, where users can input an email address.
+    - type="tel"              => tel attribute is used to create a telephone input field, where users can input a telephone number.
+    - type="date"             => date attribute is used to create a date input field, where users can select a date from a calendar.
+    - type="time"             => time attribute is used to create a time input field, where users can select a time of day.
+    - type="week"             => attribute is used to create a week input field, where users can select a week of the year.
+    - type="datetime-local"   => attribute is used to create a date and time input field, where users can select both a date and a time.
+    - type="month"            => attribute is used to create a month input field, where users can select a month and year. 
+    - type="color"            => attribute is used to create a color input field, where users can select a color from a color picker. 
+    - Range => defines a range control (like a slider control). Normally use all input attributes like: name, placeholder, required etc
+    - url => defines a field for entering a url. Normally use all input attributes like: name, placeholder, required etc
+    - hidden => <input type="hidden"> defines a hidden input field (not visible to a user)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <form>
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search">
+    </form>
+
+    <br>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </form>
+
+    <br>
+    <form>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone">
+    </form>
+    
+    <br>
+    <form>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">    
+    </form>
+
+    <br>
+    <form>
+        <label for="time">Time:</label>
+        <input type="time" name="time" id="time">           
+    </form>
+
+    <br>
+    <form>
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week">            
+    </form>
+    <br>
+    <form>
+        <label for="datetime">Date and time:</label>
+        <input type="datetime-local" id="datetime" name="datetime">                  
+    </form>
+    <br>
+    <form>
+        <label for="month">Month:</label>
+        <input type="month" id="month" name="month">           
+    </form>
+    <br>
+    <form>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">         
+    </form>
+    <br>
+    <form>
+        <label for="range">Range</label>
+        <input type="range" id="range" name="range">
+    </form>
+    <br>
+    <form>
+        <label for="websiteurl">Website url</label>
+        <input type="url" id="websiteurl" name="websiteurl"><br/><br/>
+    </form>
+    <br>
+    <form>
+        <input type = "hidden" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+    </form>
+</body>
+</html> 

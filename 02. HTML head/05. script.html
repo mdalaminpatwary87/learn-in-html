@@ -1,0 +1,23 @@
+<!-- 
+    - Here, 
+    - <script> tag use to include javaScript code inside html document.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google</title>
+    <script>
+        let changeHeading = () => {
+            let heading = document.querySelector('h1');
+            heading.style.color = "green";
+            heading.style.textAlign = "center";
+        };
+    </script>
+</head>
+<body>
+    <h1>Google</h1>
+    <p>Google is an American company that is most commonly known as a search engine.</p>
+
+    <button type="button" onclick="changeHeading()">Click</button>
+</body>
+</html>

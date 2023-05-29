@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML</title>
+    <style>
+        [poster]{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <video src="video/movie.mp4"></video><br><br>
+    <video src="video/movie.mp4" controls></video><br><br>
+    <video src="video/movie.mp4" controls width="300px"></video><br><br> <!-- remember that => In addition to setting both the width & height, you can choose to only set either the width or the height. By only setting one, html will automatically adjust the aspect ratio for you. so if you only set width ="100px" html automatically resize the height correctly -->
+    <video src="video/movie.mp4" controls height="300px"></video><br><br> 
+    <video src="video/movie.mp4" controls poster="../picture.png"></video><br><br> 
+    <video src="video/movie.mp4" controls autoplay></video><br><br> 
+    <video src="video/movie.mp4" controls autoplay loop></video><br><br> 
+    <video src="video/movie.mp4" controls autoplay loop muted></video><br><br> 
+    
+    <!-- another way for video -->
+    <video>
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br> <br>
+
+    <video controls>
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br><br>
+
+    <video controls width="200px">
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br><br>
+
+    <video controls height="300px"> 
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br><br>
+
+    <video controls poster="../picture.png"> 
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br><br>
+
+    <video controls autoplay> 
+        <source src="video/movie.mp4" type="video/mp4">
+    </video><br><br>
+    
+    <video controls autoplay loop> 
+        <source src="video/movie.mp4" type="video/mp4">
+
+    </video><br><br>
+
+    <video controls autoplay loop muted> 
+        <source src="video/movie.mp4" type="video/mp4">
+    </video>
+</body>
+</html>

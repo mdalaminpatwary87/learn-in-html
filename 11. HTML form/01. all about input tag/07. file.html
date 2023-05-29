@@ -1,0 +1,29 @@
+<!-- 
+    - Here, 
+    - If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the <input> element but type attribute is set to file 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <form>
+        <input type="file"><br><br>
+        <!--Attributes => Following is the list of important attributes of file upload box −
+                01. name     - Used to give a name to the control which is sent to the server to be recognized and get the value.
+        -->
+        <input type="file" name="fileupload"><br><br>
+        <input type="file" name="fileupload" accept="image/*"><br><br>
+        <input type="file" name="fileupload" accept="video/*"><br><br>
+        <input type="file" name="fileupload" accept="audio/*"><br><br>
+        <input type="file" name="fileupload" accept=".pdf, .text"><br><br>
+        <input type="file" name="fileupload" accept=".doc, .docx"><br><br>
+        <input type="file" name="fileupload" accept=".png, .jpg, .jpeg"><br><br>
+        <input type="file" name="fileupload" accept=".png, .jpg, .jpeg" multiple><br><br>
+        
+        <!-- We can combine multiple file types. If we want all the Audio and Video formats and png format for Images and Pdfs. -->
+        <input type="file" name="fileupload" accept="video/*,audio/*,.pnd,.pdf"><br><br>
+    </form>
+</body>
+</html>

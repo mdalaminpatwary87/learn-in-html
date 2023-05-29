@@ -1,0 +1,28 @@
+<!-- 
+    - <select> tag is an html element used to create a drop-down list or a selection box on a web page, where users can select one or more options from a set of options.
+        - name     => name attribute as "colors", which is used to identify the drop-down list when the form is submitted.
+        - size     => size attribute to specify the number of visible values.
+        - multiple => multiple attribute to allow the user to select more than one value.
+
+    - <option> tag represents a choice in the drop-down list. 
+        - value    => attribute specifies the value that will be sent to the server when the form is submitted.
+        - selected => selected attribute specifies that this option should be the initially selected value when the page loads.
+        - label    => An alternative way of labeling options.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <form>
+        <label for="colors">Choose a color:</label>
+        <select>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </form>
+</body>
+</html>

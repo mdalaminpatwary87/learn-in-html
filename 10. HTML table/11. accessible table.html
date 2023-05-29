@@ -1,0 +1,35 @@
+<!-- 
+    - Here, 
+    - scope ="col": The scope attribute is used in the table header (<th>) elements to indicate that they apply to the entire column. This helps screen readers associate each cell in the column with its corresponding header.
+    - scope ="row": The scope attribute is used in the first cell of each row (<th> element) to indicate that it applies to the entire row. This helps screen readers associate the data cells with their corresponding row headers.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <table border="1px" width="50%" cellpadding="5px" cellspacing="3px">
+        <caption>Employee Information</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">John Doe</th>
+                <td>Developer</td>
+                <td><a href="mailto:johndoe@example.com">johndoe@example.com</a></td>
+            </tr>
+            <tr>
+                <th scope="row">Jane Smith</th>
+                <td>Designer</td>
+                <td><a href="mailto:janesmith@example.com">janesmith@example.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

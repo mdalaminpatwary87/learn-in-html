@@ -1,0 +1,15 @@
+<!-- 
+    - iframe can be used as the target frame for a link. target attribute of the link must refer to the name attribute of the iframe 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <!-- When the target attribute of a link matches the name of an iframe, the link will open in the iframe -->
+    <iframe src="file/test.html" title="Iframe" name="iframe_a" width="500px" height="300px"></iframe>
+    <br/>
+    <a href="https://www.youtube.com/embed/eI4an8aSsgw" target="iframe_a">freecodecamp.org</a>
+</body>
+</html>

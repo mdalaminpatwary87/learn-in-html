@@ -1,0 +1,34 @@
+<!-- 
+    - Here, 
+    - lists can be nested that means list inside list called nested list.
+-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>html</title>
+ </head>
+ <body>
+    <!-- Option 1: the nested <ol> is a child of the parent <ol> -->
+     <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <ol>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ol>
+        <li>Milk</li>
+     </ol>
+
+     <!-- Option 2: the nested <ol> is a child of the <li> it belongs in -->
+     <ol>
+        <li>List item one</li>
+        <li>List item two with subitems:
+            <ol>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ol>
+        </li>
+        <li>Final list item</li>
+     </ol>
+ </body>
+</html>

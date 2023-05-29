@@ -1,0 +1,21 @@
+<!--
+    - target attribute specifies where to display the response that is received after submitting the form.
+    - target attribute can have one of the following values: 
+        _self  : default, opens the document in the same window/tab as it was clicked.
+        _blank : opens the document in a new window or tab
+        _parent: opens the linked document in the parent frame.
+        _top   : opens the linked document in the full body of the window.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <form action="/00. HTML all documents/04. all external files/08_server1.html" method="get" autocomplete="on" target="_blank">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email...">
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>

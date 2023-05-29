@@ -1,0 +1,27 @@
+<!-- 
+    - input type 'radio' attributes is used to create a radio button input field. A radio button allows users to select one option from a set of options.
+    - input type 'radio' attributes are => 
+        - name    => name attribute ensures that only one radio button can be selected from the set of options.
+        - id      => id attribute is used to uniquely identify each radio button.
+        - value   => value attributes that will be used if the radio is selected and that is sent to the server if the checkbox is selected.
+        - checked => checked attributes specifies pre-selected by default when the page is loaded.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html</title>
+</head>
+<body>
+    <form>
+        <label for="fav_language">Select Language:</label>
+        <input type="radio" name="fav_language" id="html" value="HTML" checked>
+        <label for="html">HTML</label>
+
+        <input type="radio" name="fav_language" id="css"  value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="radio" name="fav_language" id="javascript"  value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>
+</body>
+</html>

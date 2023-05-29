@@ -1,0 +1,29 @@
+<!--=============================================================================================================================================================
+<details> => 
+          - <details> tag specifies additional details that the user can open and close on demand.
+          - <details> tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.
+          - Any sort of content can be put inside the <details> tag. 
+          - The <summary> tag is used in conjunction with <details> to specify a visible heading for the details.
+
+<summary> => 
+          - <summary> tag defines a visible heading for the <details> element. The heading can be clicked to view/hide the details.
+          - The <summary> element should be the first child element of the <details> element.
+=================================================================================================================================================================-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML</title>
+    <style>
+      details[open] > summary {
+        background-color: aqua;
+      }
+    </style>
+</head>
+<body>
+    <h1>The details element</h1>
+    <details>
+      <summary>Epcot Center</summary>
+      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </details>
+</body>
+</html>
